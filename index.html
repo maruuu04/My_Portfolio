@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mark Erwin Ducay | IT Portfolio</title>
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container nav-container">
+            <div class="logo"></div>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#experience" class="nav-link">Experience</a></li>
+                <li><a href="#education" class="nav-link">Education</a></li>
+                <li><a href="#training" class="nav-link">Training</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="hamburger" id="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container hero-container">
+            <div class="hero-content">
+                <h1>Mark Erwin Ducay</h1>
+                <p class="subtitle">ICT Specialist-in-Training | Computer Systems Servicing & Networking</p>
+                <p class="hero-description">From troubleshooting hardware to configuring secure networks, I bring hands‑on tech skills and a passion for learning.</p>
+            </div>
+            <div class="hero-image">
+                <img src="images/img.png" alt="Mark Erwin Ducay" onerror="this.src='https://placehold.co/400x400'">
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills & Personal Strengths -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title">Skills & Strengths</h2>
+            <div class="skills-flex">
+                <div class="skill-card scroll-timeline">
+                    <i class="fas fa-desktop"></i>
+                    <h3>Technical Support</h3>
+                    <p>Basic hardware troubleshooting, computer cleaning, and maintenance.</p>
+                </div>
+                <div class="skill-card scroll-timeline">
+                    <i class="fas fa-print"></i>
+                    <h3>Peripheral Management</h3>
+                    <p>Setting up, operating, and fixing common printer issues.</p>
+                </div>
+                <div class="skill-card scroll-timeline">
+                    <i class="fas fa-comments"></i>
+                    <h3>Communication</h3>
+                    <p>Strong verbal and written communication skills.</p>
+                </div>
+                <div class="skill-card scroll-timeline">
+                    <i class="fas fa-puzzle-piece"></i>
+                    <h3>Problem Solving</h3>
+                    <p>Analytical mindset to resolve technical issues efficiently.</p>
+                </div>
+                <div class="skill-card scroll-timeline">
+                    <i class="fas fa-search"></i>
+                    <h3>Detail Oriented</h3>
+                    <p>Meticulous attention to every component and configuration.</p>
+                </div>
+                <div class="skill-card scroll-timeline">
+                    <i class="fas fa-rocket"></i>
+                    <h3>Fast Learner</h3>
+                    <p>Quickly adapt to new technologies and tools.</p>
+                </div>
+                <div class="skill-card scroll-timeline">
+                    <i class="fas fa-sync-alt"></i>
+                    <h3>Adaptable</h3>
+                    <p>Thrive in dynamic environments and changing requirements.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Work Experience with clickable pop-up images -->
+    <section id="experience" class="experience">
+        <div class="container">
+            <h2 class="section-title">Work Experience</h2>
+            <div class="timeline">
+                <div class="timeline-item scroll-timeline">
+                    <div class="timeline-icon">
+                        <i class="fas fa-briefcase"></i>
+                    </div>
+                    <div class="timeline-content">
+                        <h3>Computer Technical Assistant</h3>
+                        <p class="institution">Municipality of Binangonan, Rizal</p>
+                        <p class="date">November 13 – December 12, 2025 (160 hours)</p>
+                        <p>Work in the establishment as an OJT. Assisted in hardware troubleshooting, and general IT support for municipal offices.</p>
+                        
+                        <!-- Three clickable pop-up images -->
+                        <div class="experience-images">
+                            <div class="image-wrapper" onclick="openPopup(0)">
+                                <img src="images/658b0366-d45f-4a41-ac05-7e4067dd907f.jfif" 
+                                     alt="Work at Binangonan 1" 
+                                     class="exp-img"
+                                     onerror="this.src='https://placehold.co/400x300'">
+                                <div class="image-overlay">
+                                    <i class="fas fa-search-plus"></i>
+                                    <span>Click to enlarge</span>
+                                </div>
+                            </div>
+                            <div class="image-wrapper" onclick="openPopup(1)">
+                                <img src="images/99cc74b3-c64b-4d09-9e6e-854c603c8169.jfif" 
+                                     alt="Work at Binangonan 2" 
+                                     class="exp-img"
+                                     onerror="this.src='https://placehold.co/400x300'">
+                                <div class="image-overlay">
+                                    <i class="fas fa-search-plus"></i>
+                                    <span>Click to enlarge</span>
+                                </div>
+                            </div>
+                            <div class="image-wrapper" onclick="openPopup(2)">
+                                <img src="images/dfde6304-c2dc-4748-a92a-94b4f4ec7bae.jfif" 
+                                     alt="Work at Binangonan 3" 
+                                     class="exp-img"
+                                     onerror="this.src='https://placehold.co/400x300'">
+                                <div class="image-overlay">
+                                    <i class="fas fa-search-plus"></i>
+                                    <span>Click to enlarge</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education -->
+    <section id="education" class="education">
+        <div class="container">
+            <h2 class="section-title">Education</h2>
+            <div class="education-grid">
+                <div class="education-card scroll-timeline">
+                    <img src="images/image-removebg-preview (1).png" alt="Don Jose Ynares Sr. Memorial National High School" class="card-image" onerror="this.src='https://placehold.co/100x100'">
+                    <i class="fas fa-school"></i>
+                    <h3>Senior High School – ICT Strand</h3>
+                    <p class="institution">Don Jose Ynares Sr. Memorial National High School</p>
+                    <p class="year">2025 – 2026</p>
+                    <p class="description">Specialized in Computer Systems Servicing and Networking.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Training Attended -->
+    <section id="training" class="training">
+        <div class="container">
+            <h2 class="section-title">Training Attended</h2>
+            <div class="training-grid">
+                <div class="training-card scroll-timeline">
+                    <img src="images/image-removebg-preview (2).png" alt="Work Immersion" class="card-image" onerror="this.src='https://placehold.co/100x100'">
+                    <i class="fas fa-certificate"></i>
+                    <h3>Work Immersion</h3>
+                    <p class="institution">Municipality of Binangonan, Rizal</p>
+                    <p class="date">November – December 2025</p>
+                    <p class="description">Certificate of Completion – Work Immersion (160 hours)</p>
+                </div>
+                <div class="training-card scroll-timeline">
+                    <img src="images/image-removebg-preview (3).png" alt="TESDA NCII" class="card-image" onerror="this.src='https://placehold.co/100x100'">
+                    <i class="fas fa-certificate"></i>
+                    <h3>NCII in Computer Systems Servicing</h3>
+                    <p class="institution">Technical Education and Skills Development Authority (TESDA)</p>
+                    <p class="date">2025</p>
+                    <p class="description">National Certificate II – Computer Systems Servicing (CSS)</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-container">
+                <form id="contact-form" class="contact-form">
+                    <input type="text" name="name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                </form>
+                <div class="contact-info scroll-timeline">
+                    <p><i class="fas fa-phone-alt"></i> 09079262334</p>
+                    <p><i class="fas fa-envelope"></i> ducyamarkerwin@gmail.com</p>
+                    <p><i class="fas fa-map-marker-alt"></i> Sampaloc St. Blooming Breeze Subdivision, Brgy. Pag-Asa, Binangonan, Rizal</p>
+                    <div class="social-links">
+                        <a href="https://www.facebook.com/mac.ducay.2025" target="_blank"><i class="fab fa-facebook"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+
+
+    <!-- Image Popup Modal -->
+    <div id="imagePopup" class="popup-modal" onclick="closePopup(event)">
+        <span class="popup-close" onclick="closePopup(event)">&times;</span>
+        <div class="popup-content">
+            <img id="popupImage" src="" alt="Popup image">
+            <div id="popupCaption" class="popup-caption"></div>
+        </div>
+        <a class="popup-prev" onclick="changeImage(-1)">&#10094;</a>
+        <a class="popup-next" onclick="changeImage(1)">&#10095;</a>
+    </div>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
